@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_3">
+
+    <EditText
+        android:id="@+id/d_player_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter player 1 name"
+        android:textSize="24dp"
+        android:singleLine="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:id="@+id/d_player_2"
+        android:layout_below="@id/d_player_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="24dp"
+        android:hint="Enter player 2 name "/>
+
+</RelativeLayout>
